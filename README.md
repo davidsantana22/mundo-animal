@@ -30,9 +30,9 @@ No se otorga una licencia pública de reutilización de la identidad o de los co
 ## Publicación
 
 Destino solicitado por el usuario: `davidsantana22/mundo-animal`.
-Para GitHub Pages: Settings → Pages → Deploy from a branch → main → / (root). El sitio no requiere GitHub Actions.
+Para GitHub Pages: Settings → Pages → Deploy from a branch → main → / (root). No necesita un flujo de GitHub Actions propio; GitHub gestiona el despliegue automático de Pages.
 
-La publicación inicial y sus verificaciones se registran en la documentación entregada; esta instrucción no certifica por sí sola un despliegue.
+Publicado y verificado el 18/10/2026: https://davidsantana22.github.io/mundo-animal/ . Resultados y límites en `docs/PRUEBAS.md`.
 
 ## Documentación
 

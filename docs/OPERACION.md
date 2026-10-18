@@ -13,9 +13,9 @@ El repositorio y el alojamiento deben pertenecer a la cuenta de GitHub del usuar
 
 ## Publicar con GitHub Pages
 
-Crear `mundo-animal` dentro de `davidsantana22`. Subir el contenido de la carpeta `site` en la raíz del repositorio y la documentación en `docs`. El archivo `index.html` debe estar en la raíz, no dentro de otra carpeta `site`.
+El repositorio `davidsantana22/mundo-animal` ya está creado y cargado. Mantené `index.html`, `assets` y `.nojekyll` en la raíz, y la documentación en `docs`. No agregues una carpeta `site` envolviendo la web.
 
-En Settings → Pages seleccionar publicación desde rama `main`, carpeta `/ (root)`. GitHub construye y publica automáticamente. La URL prevista es `https://davidsantana22.github.io/mundo-animal/`; hasta comprobar el despliegue es una URL prevista, no una certificación de sitio activo. Ver el estado real en `ENTREGA.md`.
+En Settings → Pages seleccionar publicación desde rama `main`, carpeta `/ (root)`. GitHub construye y publica automáticamente. La URL publicada y verificada es `https://davidsantana22.github.io/mundo-animal/`. Ver resultados en `ENTREGA.md` y `PRUEBAS.md`.
 
 No es necesario contratar servidor, instalar dependencias ni comprar un dominio para esta etapa. Si el repositorio es público, todos sus archivos son visibles: incluir únicamente materiales aprobados para difusión pública. Si se añade un dominio, su titularidad y renovación deberán permanecer en la cuenta del usuario.
 
@@ -26,3 +26,7 @@ No se crearon contraseñas, claves de API ni cuentas de terceros. El control est
 ## Privacidad
 
 La web no guarda formularios, cuentas ni información de mascotas, y no incluye seguimiento propio. WhatsApp, Instagram, Google Maps y GitHub aplican sus propias políticas. No se aceptan expedientes por esta web. La futura aplicación privada se diseña en `ARQUITECTURA-PRIVADA.md`.
+
+## Actualizar recursos sin caché anterior
+
+Al modificar CSS o `app.js`, actualizá su parámetro `v` en `index.html` y el parámetro de la vista previa en `tests/responsive.html`. Comprobá que el nuevo despliegue finalizó antes de revisar la página.
