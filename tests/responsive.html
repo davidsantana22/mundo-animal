@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mundo Animal · Revisión adaptable</title>
+<style>body{margin:16px;font:16px system-ui;background:#eee;color:#234c3a}header{margin-bottom:16px}button{padding:10px;margin:4px;cursor:pointer}iframe{display:block;background:white;border:1px solid #999;height:1000px;transform-origin:top left}#stage{overflow:auto}</style>
+<header><h1>Revisión adaptable</h1><p>Herramienta de prueba del sitio público. No guarda datos.</p><button data-width="390">Móvil · 390 px</button><button data-width="768">Tableta · 768 px</button><button data-width="1440">Escritorio · 1440 px</button><output id="size">390 px</output></header>
+<div id="stage"><iframe id="preview" title="Vista previa de Mundo Animal" src="../index.html" style="width:390px"></iframe></div>
+<script>document.querySelectorAll('[data-width]').forEach(button=>button.addEventListener('click',()=>{document.getElementById('preview').style.width=button.dataset.width+'px';document.getElementById('size').textContent=button.dataset.width+' px'}));</script>
+</html>
